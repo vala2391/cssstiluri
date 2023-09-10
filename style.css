@@ -1,0 +1,53 @@
+.margin {
+  margin-left: 16px;
+  margin-right: 32px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+ 
+}
+.margin {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid rgb(0, 0, 0);
+
+}
+.paragraf {
+  color: rgb(0, 255, 179);
+}
+.color {
+  color: red;
+}
+.hover {
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+}
+.hover:hover {
+  border-color: red;
+}
+.parent {
+  height: 50px;
+  width: 250px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  background-color: aqua;
+  position: relative;
+  margin-top: 10px;
+}
+
+.child {
+  height: 50%;
+  width: 25%;
+  background-color: brown;
+  position: absolute;
+  
+}  
+
+.title::before {
+  content: " inceput ";
+}
+
+.title::after {
+  content: " sfirsit " ;
+}
